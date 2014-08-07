@@ -16,11 +16,12 @@ WAF.define('CheckBox', ['waf-core/widget'], function(widget) {
                 this.node.checked = this.value();
             });
 
-            $(this.node).on('change', function() {
+            this._changeHandler = function() {
                 subscriber.pause();
                 this.value(this.node.checked);
                 subscriber.resume();
-            }.bind(this));
+            }.bind(this);
+            $(this.node).on('change', this._changeHandler);
         }
     });
 
