@@ -1,7 +1,7 @@
 {
     "name": "CheckBox",
     "studioName": "CheckBox",
-    "category": "Wakanda",
+    "category": "Custom Widgets",
     "iconPath": "/icons/widget.png",
     "author": "Widget Developer",
     "contributors": [
