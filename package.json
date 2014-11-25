@@ -1,26 +1,37 @@
 {
     "name": "CheckBox",
     "studioName": "CheckBox",
-    "category": "Wakanda",
+    "category": "Form Controls",
+    "type": "widget",
     "iconPath": "/icons/widget.png",
-    "author": "Widget Developer",
-    "contributors": [
-        "Developer 1",
-        "Developer 2"
-    ],
+    "author": "stephane.puybareau@4d.com",
     "version": "1.0.0",
-    "copyright": "(c) 2014 Widget Developer",
+    "copyright": "(c) 2014 4D",
     "repository": {
         "type": "git",
-        "url": "https://github.com/developer/Widget.git"
+        "url": "https://github.com/Puyb4D/Widget.git"
     },
     "keywords": ["wakanda", "widget"],
-    "engines": {"wakanda": ">= 8"},
+    "engines": {
+        "wakanda": ">= 9"
+    },
     "license": "MIT",
-    "loadDependencies": [
-        {"id": "Widget_V2"},
-        {"id": "CheckBox/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "CheckBox/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "CheckBox/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
-    ]
+    "externalWidgets": [],
+    "loadDependencies": [{
+        "id": "Widget_V2"
+    }, {
+        "id": "CheckBox/widget.js",
+        "version": "1.0.0",
+        "path": "WIDGETS_CUSTOM"
+    }, {
+        "id": "CheckBox/css/widget.css",
+        "version": "1.0.0",
+        "path": "WIDGETS_CUSTOM"
+    }, {
+        "id": "CheckBox/designer.js",
+        "studioOnly": true,
+        "version": "1.0.0",
+        "path": "WIDGETS_CUSTOM"
+    }],
+    "hash": "94375cd8fe199648159dfa49b2d74a0f6ac777d8"
 }

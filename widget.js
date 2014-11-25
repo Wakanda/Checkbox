@@ -9,9 +9,13 @@ WAF.define('CheckBox', ['waf-core/widget'], function(widget) {
                 return this.node.checked;
             }
         }),
+        addTabIndex : function() {
+
+        },
         init: function() {
             this.node.type = 'CheckBox';
             this.node.checked = this.value();
+            this.node.setAttribute('type',this.node.getAttribute('type').toLowerCase());
             var subscriber = this.value.onChange(function() {
                 this.node.checked = this.value();
             });
@@ -22,6 +26,11 @@ WAF.define('CheckBox', ['waf-core/widget'], function(widget) {
                 subscriber.resume();
             }.bind(this);
             $(this.node).on('change', this._changeHandler);
+            
+            this.style({
+                'box-sizing' : '',
+                'cursor' : ''
+            });
         }
     });
 
