@@ -20,25 +20,24 @@
         'category':'Mouse Events' 
     },{ 
         'name':'dblclick', 
+        'description':'On Double Click',
         'category':'Mouse Events'
     },{ 
         'name':'mousedown', 
+        'description':'On Mouse Down',
         'category':'Mouse Events'
     },{ 
         'name':'mouseout',
+        'description':'On Mouse Out',
          'category':'Mouse Events'
     },{ 
         'name':'mouseover',
+        'description':'On Mouse Over',
         'category':'Mouse Events'
     },{ 
         'name':'mouseup',
+        'description':'On Mouse Up',
         'category':'Mouse Events'
-    },{ 
-        'name':'keydown',
-        'category':'Keyboard Events'
-    },{ 
-        'name':'keyup',
-        'category':'Keyboard Events'
     });
 
     CheckBox.addLabel({
