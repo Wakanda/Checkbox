@@ -26,11 +26,6 @@ WAF.define('CheckBox', ['waf-core/widget'], function(widget) {
                 subscriber.resume();
             }.bind(this);
             $(this.node).on('change', this._changeHandler);
-            
-            this.style({
-                'box-sizing' : '',
-                'cursor' : ''
-            });
         }
     });
 
