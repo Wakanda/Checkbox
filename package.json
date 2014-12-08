@@ -1,6 +1,6 @@
 {
-    "name": "CheckBox",
-    "studioName": "CheckBox",
+    "name": "Checkbox",
+    "studioName": "Checkbox",
     "category": "Form Controls",
     "type": "widget",
     "iconPath": "/icons/widget.png",
@@ -13,22 +13,22 @@
     },
     "keywords": ["wakanda", "widget"],
     "engines": {
-        "wakanda": ">= 9"
+        "wakanda": ">= 11"
     },
     "license": "MIT",
     "externalWidgets": [],
     "loadDependencies": [{
         "id": "Widget_V2"
     }, {
-        "id": "CheckBox/widget.js",
+        "id": "Checkbox/widget.js",
         "version": "1.0.0",
         "path": "WIDGETS_CUSTOM"
     }, {
-        "id": "CheckBox/css/widget.css",
+        "id": "Checkbox/css/widget.css",
         "version": "1.0.0",
         "path": "WIDGETS_CUSTOM"
     }, {
-        "id": "CheckBox/designer.js",
+        "id": "Checkbox/designer.js",
         "studioOnly": true,
         "version": "1.0.0",
         "path": "WIDGETS_CUSTOM"

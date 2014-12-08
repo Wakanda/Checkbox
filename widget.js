@@ -1,19 +1,17 @@
-WAF.define('CheckBox', ['waf-core/widget'], function(widget) {
+WAF.define('Checkbox', ['waf-core/widget'], function(widget) {
     "use strict";
 
-    var CheckBox = widget.create('CheckBox', {
+    var Checkbox = widget.create('Checkbox', {
         tagName: 'input',
         value: widget.property({
             type: 'boolean',
-            defaultValue: function() {
-                return this.node.checked;
-            }
+            defaultValue: false
         }),
         addTabIndex : function() {
 
         },
         init: function() {
-            this.node.type = 'CheckBox';
+            this.node.type = 'Checkbox';
             this.node.checked = this.value();
             this.node.setAttribute('type',this.node.getAttribute('type').toLowerCase());
             var subscriber = this.value.onChange(function() {
@@ -25,9 +23,10 @@ WAF.define('CheckBox', ['waf-core/widget'], function(widget) {
                 this.value(this.node.checked);
                 subscriber.resume();
             }.bind(this);
+            
             $(this.node).on('change', this._changeHandler);
         }
     });
 
-    return CheckBox;
+    return Checkbox;
 });
