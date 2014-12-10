@@ -49,7 +49,7 @@
         'border': false,
         'sizePosition': true,
         'label': true,
-        'width': 'undefined'
+        'disabled': ['width','height']
     });
 
 });
