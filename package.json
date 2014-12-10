@@ -1,16 +1,20 @@
 {
     "name": "Checkbox",
     "studioName": "Checkbox",
+    "studioPlatform": ["desktop"],
     "category": "Form Controls",
     "type": "widget",
     "iconPath": "/icons/widget.png",
-    "author": "stephane.puybareau@4d.com",
-    "studioPlatform": ["desktop"],
-    "version": "1.0.0",
-    "copyright": "(c) 2014 4D",
+    "author": "4D SAS",
+    "contributors": [
+        "Stéphane Puybareau",
+        "Sébastien Lombard",
+        "Jonathan Argentiero"
+    ],
+    "copyright": "(c) 2014 4D SAS",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Puyb4D/Widget.git"
+        "url": "https://github.com/Wakanda/Checkbox.git"
     },
     "keywords": ["wakanda", "widget"],
     "engines": {
