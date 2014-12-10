@@ -7,6 +7,14 @@ WAF.define('Checkbox', ['waf-core/widget'], function(widget) {
             type: 'boolean',
             defaultValue: false
         }),
+        disable: function() {
+           this.$super('disable')();
+           this.node.disabled = true;
+        },
+        enable: function() {
+           this.$super('enable')();
+           this.node.disabled = false;
+        },
         addTabIndex : function() {
 
         },
