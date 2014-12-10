@@ -6,12 +6,8 @@
 
     Checkbox.addStates('hover', 'active', 'selected', 'focus', 'disabled');
 
-    Checkbox.removeEvent('change');
     Checkbox.addEvents({
         'name':'blur',
-        'category':'Focus Events'
-    },{ 
-        'name':'change',
         'category':'Focus Events'
     },{ 
         'name':'focus',
