@@ -4,8 +4,6 @@
     Checkbox.setWidth(16);
     Checkbox.setHeight(16);
 
-    Checkbox.addStates('hover', 'active', 'selected', 'focus', 'disabled');
-
     Checkbox.addEvents({
         'name':'blur',
         'category':'Focus Events'
@@ -40,4 +38,18 @@
             this.node.checked = this.value();
         }.bind(this));
     });
+
+    Checkbox.setPanelStyle({
+        'fClass': true, //This property is for the design panel
+        'text': false,
+        'textShadow': false,
+        'dropShadow': false, 
+        'innerShadow': false,
+        'background': false,
+        'border': false,
+        'sizePosition': true,
+        'label': true,
+        'width': 'undefined'
+    });
+
 });
