@@ -15,9 +15,6 @@ WAF.define('Checkbox', ['waf-core/widget'], function(widget) {
            this.$super('enable')();
            this.node.disabled = false;
         },
-        addTabIndex : function() {
-
-        },
         init: function() {
             this.node.type = 'Checkbox';
             this.node.checked = this.value();
@@ -36,5 +33,7 @@ WAF.define('Checkbox', ['waf-core/widget'], function(widget) {
         }
     });
 
+    Checkbox.addTabIndex();
+    
     return Checkbox;
 });
