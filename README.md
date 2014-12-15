@@ -1,14 +1,28 @@
-## Custom Widget for [Wakanda](http://wakanda.org)
-The __Custom__ widget allows you to...
+## Checkbox Widget for [Wakanda](http://wakanda.org)
+The [Checkbox widget](http://doc.wakanda.org/WakandaStudio0/help/Title/en/page4623.html "Checkbox widget") allows you to create a checkbox on your Page whose value can either be static or can come from a datasource attribute of type Boolean.
 
 ### Properties
 This widget has the following properties:
 
-* __Prop1__: Explain the property 1
-* __Prop2__: Explain the property 2
-* __Prop3__: Explain the property 3
+* __ID__: Unique ID
+* __Hide on load__: Hide the widget when your page is loaded for the first time. 
+* __Value__: Boolean value from a datasource or a static value.
+* __Tabindex__: Defines the tab order of the widget on the Page. 
+* __Label__: Label for the widget. 
 
-### More Information
-You can install a custom widget by using the [Add-ons Extension](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4263.html "Add-ons Extension"). For more information, refer to the [Installing a Custom Widget](http://doc.wakanda.org/WakandaStudio/help/Title/en/page3869.html#1056003 "Installing a Custom Widget") manual.
+For more information, refer to the [Widget v2 Properties](http://doc.wakanda.org/WakandaStudio0/help/Title/en/page4608.html "Widget v2 Properties") chapter.
 
-For more information about creating a custom widget, refer to the [Widgets v2 Creating a Widget](http://doc.wakanda.org/Wakanda/help/Title/en/page3849.html "Widgets v2 Creating a Widget") manual.
+### Events
+The following events can be intercepted for this widget:
+
+* [Property Events](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4609.html#1085182): On Change
+* [Focus Events](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4609.html#1085340): On Blur and On Focus
+* [Mouse Events](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4609.html#1085346): On Click, On Mouse Down, On Mouse Out, On Mouse Over, and On Mouse Up
+
+For more information, refer to the [Widget v2 Events](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4609.html "Widget v2 Events") chapter.
+
+### Styles
+The Checkbox widget is standard and therefore you can only modify its position and label in the __Styles__ tab. For more information, refer to the [Widget v2 Styles](http://doc.wakanda.org/WakandaStudio0/help/Title/en/page4611.html "Widget v2 Styles") chapter.
+
+### API
+The Checkbox widget has its own [API](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4624.html "Checkbox v2 API") and also inherits from the [Wakanda Widgets Instance API](http://doc.wakanda.org/WakandaStudio/help/Title/en/page4066.html "Wakanda Widgets Instance API").
