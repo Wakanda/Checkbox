@@ -28,7 +28,8 @@
     });
 
     Checkbox.addLabel({
-        'position': 'right'
+        position: 'right',
+        description: 'Label for widget'
     });
 
     // disable click

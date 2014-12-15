@@ -5,6 +5,7 @@ WAF.define('Checkbox', ['waf-core/widget'], function(widget) {
         tagName: 'input',
         value: widget.property({
             type: 'boolean',
+            description: 'Boolean defined by a datasource or static value',
             defaultValue: false
         }),
         disable: function() {
