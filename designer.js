@@ -15,15 +15,19 @@
         'category':'Mouse Events' 
     },{ 
         'name':'mousedown', 
+        'description':'On Mouse Down',
         'category':'Mouse Events'
     },{ 
         'name':'mouseout',
-         'category':'Mouse Events'
+        'description':'On Mouse Out',
+        'category':'Mouse Events'
     },{ 
         'name':'mouseover',
+        'description':'On Mouse Over',
         'category':'Mouse Events'
     },{ 
         'name':'mouseup',
+        'description':'On Mouse Up',
         'category':'Mouse Events'
     });
 
